@@ -1,0 +1,29 @@
+@media (max-width: 376px) {
+  .product {
+    max-width: 60rem;
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+    border-radius: 11px;
+    overflow: hidden;
+  }
+  .product-title h1 {
+    font-size: 3rem;
+  }
+
+  .product-content {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .product {
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .product {
+    margin: 0 2rem;
+  }
+}
